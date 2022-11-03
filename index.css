@@ -21,12 +21,11 @@ a:hover{
     border-bottom-style: double;   
     padding-bottom: 208px;
     width: 90%;
-    border: width ;
     }
 nav{
     width: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     font-family: system-ui,-apple-system, 'Helvetica Neue',Arial, sans-serif;
     height: 32vh;
 }
