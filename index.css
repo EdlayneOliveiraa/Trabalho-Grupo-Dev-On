@@ -18,18 +18,17 @@ a:hover{
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 4px;
+    border-bottom-style: double;   
+    padding-bottom: 208px;
+    width: 90%;
+    border: width ;
     }
 nav{
-    width: 70%;
+    width: center;
     display: flex;
     justify-content: space-around;
     font-family: system-ui,-apple-system, 'Helvetica Neue',Arial, sans-serif;
-    background:url("img/logo.png") center center; background-repeat: no-repeat;
-    height: 27vh;
-    border-bottom-style: double;
-    
-    
-    
+    height: 32vh;
 }
 
 .nav-list{
