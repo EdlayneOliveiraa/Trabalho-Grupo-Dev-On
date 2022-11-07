@@ -9,7 +9,8 @@ a{
     text-decoration: none;
     transition: 0.3s;
     position: 50px;
-    
+    box-shadow: 6px 6px 10px #38b6ff93;
+    border-radius: 5px;
 }
 
 a:hover{
@@ -148,7 +149,7 @@ nav{
     transition: color .4s ease;
 }
 .socials a:hover i{
-    color:  #38b6ff;
+    color:  #074264;
 }
 .footer-bottom {
   
@@ -158,6 +159,9 @@ nav{
     padding-top: 0px;
     
 
+}
+.footer-bottom p:hover{
+    color: #074264;
 }
 .footer-bottom p{
     font-size: 14px;
@@ -172,3 +176,5 @@ nav{
     font-weight: 200;
 
 }
+
+
