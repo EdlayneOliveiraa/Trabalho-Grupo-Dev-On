@@ -6,7 +6,7 @@
   --text-color: #8789af;
   --border-color: #38b6ff;
 }
-
+ 
 #checkout-page {
   background-color: var(--bg-color);
   color: var(--primary-color);
@@ -94,6 +94,7 @@
 /* Form */
 #order-form-container {
   max-width: 700px;
+  border: #38b6ff 10px double;
 }
 
 #order-form-container input,
@@ -139,3 +140,4 @@
     width: 8em;
   }
 }
+
