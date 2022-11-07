@@ -18,7 +18,18 @@
     />
     <!--Script-->
     <script src="scripts.js" defer></script>
+
+    <!--Abri um style pra consertar o menu do cadastro que bugou-->
+    <style>
+      a{color:  #38b6ff;
+         text-decoration: none;
+          transition: 0.3s;
+          position: 50px;
+         }
+          
+    </style>
   </head>
+  <div class="container">
   <header>
     <nav>
       <ul class="logo">
@@ -35,11 +46,14 @@
       <div class="header-menu-user">
         <a class="icone-usuario" href="login.html">
           <img src="img/icone-usuario.png" height="25px" width="30px" alt="" /> Fazer Login</a>
-      </div>
+      
     </nav>
   </header>
+</div>
 <!--fim do menu-->
-  <body id="checkout-page">
+  
+<section id="checkout-page">
+  <body>
     <div id="fade" class="hide">
       <div id="loader" class="spinner-border text-info hide" role="status">
         <span class="visually-hidden">Loading...</span>
@@ -294,27 +308,27 @@
           </button>
         </div>
       </form>
-    </div>
-    <!---Rodapé-->
-    <footer class="footer">
-        <div class="footer-content">
-          <h3>Dev-On</h3>
-          <p>Ouvir para servir!</p>
-  
-          <ul class="socials">
-            <li><a href="#"><i class="fa fa-facebook"> </i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"> </i></a></li>
-            <li><a href="#"><i class="fa fa-instagram"></i> </a></li>
-            <li><a href="#"><i class="fa fa-linkedin-square"></i> </a></li>
-  
-          </ul>
-        </div>
-        <div class="footer-bottom">
-          <p>copyright &copy;2022 Dev-On. Designed by <pan>Grupo FrontEnders ®</pan>
-          </p>
-  
-        </div>
-      </footer>
-       </body>
+    </div>                             
   </body>
-</html>
+</section>
+<!---Rodapé-->
+<footer class="footer">
+  <div class="footer-content">
+    <h3>Dev-On</h3>
+    <p>Ouvir para servir!</p>
+
+    <ul class="socials">
+      <li><a href="#"><i class="fa fa-facebook"> </i></a></li>
+      <li><a href="#"><i class="fa fa-twitter"> </i></a></li>
+      <li><a href="#"><i class="fa fa-instagram"></i> </a></li>
+      <li><a href="#"><i class="fa fa-linkedin-square"></i> </a></li>
+
+    </ul>
+  </div>
+  <div class="footer-bottom">
+    <p>copyright &copy;2022 Dev-On. Designed by <pan>Grupo FrontEnders ®</pan>
+    </p>
+  </div>
+</footer>
+   
+
