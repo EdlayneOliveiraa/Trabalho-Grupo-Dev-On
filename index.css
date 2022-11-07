@@ -9,10 +9,11 @@ a{
     text-decoration: none;
     transition: 0.3s;
     position: 50px;
+    
 }
 
 a:hover{
-    opacity: 0.7;
+    opacity: 0.7 #38b6ff;
 }
 .logo{
     font-size: 24px;
@@ -28,7 +29,7 @@ nav{
     width: center;
     display:flex;
     justify-content: space-evenly;
-    font-family: system-ui, -apple-system, 'Helvetica Neue',Arial, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     height: 32vh;
     
 }
@@ -37,14 +38,17 @@ nav{
     list-style: none;
     display: contents;    
     padding-bottom: 500px;
-
+    
 }
 .nav-list li{
     letter-spacing: 3px;
     margin-left: 32px;
+   font-weight: 500;
+   font-size: larger;
+   
 }
 /*css dos planos, cadastro e  home*/
-.row, .carousel   {
+.row, .carousel {
     margin-top: -150px;
 }
 .pb-2 {
@@ -60,6 +64,7 @@ nav{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #38b6ff;
 }
+
 
 /*css das avaliacoes*/
 .star{
@@ -89,14 +94,13 @@ nav{
     box-shadow: 6px 6px 10px #38b6ff93;
 }
 
-
 /*css rodapé*/
 .footer{
     background-color: #a6a6a6;
     /* position:fixed; margin top conserta o footer */
     margin-top: 40px;
     height:auto;
-    width: 100vw; 
+    width: 100%; 
     bottom:0;
     left:0;
     font-family:  system-ui,-apple-system, 'Helvetica Neue',Arial, sans-serif;
