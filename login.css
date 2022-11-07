@@ -1,0 +1,144 @@
+#telaredefinir{
+    width: 350px;
+    height: 270px;
+    position: relative;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 5px 30px #38b6ff;
+    }
+
+ul{
+    
+    justify-content: space-between;
+    list-style-type: none;
+   
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-align: -webkit-center;
+
+}
+a{
+    color:  #38b6ff;
+    text-decoration: none;
+    transition: 0.3s;
+    position: 50px;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border-bottom-style: double;   
+    padding-bottom: 208px;
+    width: 90%;
+    height: auto;
+    
+    }
+nav{
+    width: center;
+    display:flex;
+    justify-content: space-evenly;
+    font-family: system-ui, -apple-system, 'Helvetica Neue',Arial, sans-serif;
+    height: 32vh;
+    
+}
+
+.nav-list{
+    list-style: none;
+    display: contents;    
+    padding-bottom: 500px;
+
+}
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+
+
+/*css rodapé*/
+.footer{
+    background-color: #a6a6a6;
+    /* position:fixed; margin top conserta o footer */
+    margin-top: 40px;
+    height:auto;
+    width: 100vw; 
+    bottom:0;
+    left:0;
+    font-family:  system-ui,-apple-system, 'Helvetica Neue',Arial, sans-serif;
+    padding-top: 40px;
+    color: #ffffff;
+    
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem -12px 1rem -42px;
+}
+.socials li{
+    margin:0 20px;
+}
+.socials a{
+    text-decoration: none;
+    color: #38b6ff;
+}
+.socials a i {
+    font-size: 2rem;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color:  #38b6ff;
+}
+.footer-bottom {
+  
+    width: 100vw;
+    
+    padding: 20px 0;
+    text-align: center;
+    padding-top: 0px;
+    
+
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px ;
+    text-transform: capitalize;
+    padding-top: 3rem;
+
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+
+}
