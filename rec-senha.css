@@ -1,6 +1,6 @@
 #telaredefinir{
     width: 350px;
-    height: 210px;
+    height: 255px;
     position: relative;
     top: 80%;
     left: 50%;
@@ -45,7 +45,7 @@ nav{
     width: center;
     display:flex;
     justify-content: space-evenly;
-    font-family: system-ui, -apple-system, 'Helvetica Neue',Arial, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     height: 32vh;
     
 }
