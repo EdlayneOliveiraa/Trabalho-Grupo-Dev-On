@@ -72,12 +72,12 @@ nav{
     width: 20px;
 }
 .card .user{
-    width: 124px;
+    width: 200px;
     height: 200px;
     border-radius: 50%;
     
 }
-.card h3{
+.card  h3{
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    margin-bottom: 5px;
 }
@@ -93,6 +93,7 @@ nav{
     align-items: center;
     padding: 35px 40px;
     box-shadow: 6px 6px 10px #38b6ff93;
+    
 }
 
 /*css rodapé*/
@@ -176,5 +177,7 @@ nav{
     font-weight: 200;
 
 }
+
+
 
 
